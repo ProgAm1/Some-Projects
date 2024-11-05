@@ -57,12 +57,12 @@ void display()
     cout<<"\n";
     cout << "The Model name: " << Fly.Model << endl;
     cout << "The Speed is: " << Fly.Speed << " km/h" << endl;
-    cout << "The Fuel is: " << Fly.FT << " Gallon" << endl;
-    cout << "Height above the ground: " << Fly.Ful << " FT" << endl;
+    cout << "The Fuel is: " << Fly.Ful << " Gallon" << endl;
+    cout << "Height above the ground: " << Fly.FT << " FT" << endl;
     if (Fly.Speed>2000 && Fly.FT>15000 && Fly.Ful>50)
         cout << "The plane is in attack mode" << endl;
     else
-        cout << "The plane is in a defensive position" << endl;
+        cout << "The plane is in a defensive mode" << endl;
 }
 
 int main()
